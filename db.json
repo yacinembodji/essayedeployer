@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "aissata",
+      "email": "aissatasow2077@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3",
+      "name": "madjiguene",
+      "email": "madjig415@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "7471",
+      "name": "yacine 2 ",
+      "email": "ymbodji20@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "7f96",
+      "name": "ablaye fall",
+      "email": "fall23@gmail.com",
+      "password": "123@w"
+    },
+    {
+      "id": "70f4",
+      "name": "hesdfflk",
+      "email": "kdfhfajkddq@gmail.com",
+      "password": "wegt1"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "cv",
+      "price": 2000,
+      "type de creation": "cv professionnelle",
+      "detail de la commande": "Design"
+    },
+    {
+      "id": "2",
+      "name": "logo",
+      "price": 1500,
+      "type de creation": "logo professionnelle",
+      "detail de la commande": "Design"
+    },
+    {
+      "id": "3",
+      "name": "Affiche",
+      "price": 3000,
+      "type de creation": "logo professionnelle",
+      "detail de la commande": "Design"
+    }
+  ]
+}
