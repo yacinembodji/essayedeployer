@@ -7,10 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" , "start": "json-server --watch db.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/json-server/lib/cli/bin.js --watch db.json --host 0.0.0.0 --port 10000"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "0.17.3 --save"
   }
 }
