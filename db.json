@@ -1,34 +1,28 @@
 {
   "users": [
     {
-      "id": "2",
+      "id": "1",
       "name": "aissata",
       "email": "aissatasow2077@gmail.com",
-      "password": "1234"
+      "password": "creation cv"
+    },
+    {
+      "id": "2",
+      "name": "madjiguene",
+      "email": "madjig415@gmail.com",
+      "role": "creation logo"
     },
     {
       "id": "3",
-      "name": "madjiguene",
-      "email": "madjig415@gmail.com",
-      "password": "1234"
-    },
-    {
-      "id": "7471",
       "name": "yacine 2 ",
       "email": "ymbodji20@gmail.com",
-      "password": "1234"
+      "role": "creation affiche"
     },
     {
-      "id": "7f96",
-      "name": "ablaye fall",
-      "email": "fall23@gmail.com",
-      "password": "123@w"
-    },
-    {
-      "id": "70f4",
-      "name": "hesdfflk",
-      "email": "kdfhfajkddq@gmail.com",
-      "password": "wegt1"
+      "id": "22eb",
+      "name": "madjiguene",
+      "email": "madjig415@gmail.com",
+      "role": "creation logo"
     }
   ],
   "products": [
@@ -50,7 +44,7 @@
       "id": "3",
       "name": "Affiche",
       "price": 3000,
-      "type de creation": "logo professionnelle",
+      "type de creation": "Affiche professionnelle",
       "detail de la commande": "Design"
     }
   ]
