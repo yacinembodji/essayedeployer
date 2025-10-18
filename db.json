@@ -4,25 +4,26 @@
       "id": "1",
       "name": "aissata",
       "email": "aissatasow2077@gmail.com",
-      "password": "creation cv"
+      "password": "1234",
+      "role": ""
     },
     {
       "id": "2",
       "name": "madjiguene",
       "email": "madjig415@gmail.com",
-      "role": "creation logo"
+      "role": ""
     },
     {
       "id": "3",
       "name": "yacine 2 ",
       "email": "ymbodji20@gmail.com",
-      "role": "creation affiche"
+      "role": "admin"
     },
     {
-      "id": "22eb",
-      "name": "madjiguene",
-      "email": "madjig415@gmail.com",
-      "role": "creation logo"
+      "id": "3",
+      "name": "yacine 2 ",
+      "email": "ymbodji20@gmail.com",
+      "role": "admin"
     }
   ],
   "products": [
