@@ -13,16 +13,20 @@
       "email": "madjig415@gmail.com",
       "role": "admin",
       "password": "1234@"
-
     },
     {
       "id": "3",
       "name": "yacine 2 ",
       "email": "ymbodji20@gmail.com",
       "role": "admin",
-      "password":"1234@"
+      "password": "1234@"
+    },
+    {
+      "name": "jkjdd",
+      "email": "gtryu@gmail.com",
+      "password": "asdf1",
+      "id": "JtG8TN_"
     }
-   
   ],
   "products": [
     {
@@ -45,6 +49,17 @@
       "price": 3000,
       "type de creation": "Affiche professionnelle",
       "detail de la commande": "Design"
+    }
+  ],
+  
+  "commandes": [
+    {
+      "id": "c1",
+      "productName": "logo",
+      "price": 1500,
+      "clientId": "1",
+      "date": "2025-10-21",
+      "status": "en attente"
     }
   ]
 }
