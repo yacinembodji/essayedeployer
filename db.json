@@ -16,16 +16,10 @@
     },
     {
       "id": "3",
-      "name": "yacine 2 ",
+      "name": "yacine",
       "email": "ymbodji20@gmail.com",
       "role": "admin",
       "password": "1234@"
-    },
-    {
-      "name": "jkjdd",
-      "email": "gtryu@gmail.com",
-      "password": "asdf1",
-      "id": "JtG8TN_"
     }
   ],
   "products": [
@@ -33,33 +27,44 @@
       "id": "1",
       "name": "cv",
       "price": 2000,
-      "type de creation": "cv professionnelle",
-      "detail de la commande": "Design"
+      "type_de_creation": "CV professionnel",
+      "detail_de_la_commande": "Design moderne"
     },
     {
       "id": "2",
       "name": "logo",
       "price": 1500,
-      "type de creation": "logo professionnelle",
-      "detail de la commande": "Design"
+      "type_de_creation": "Logo professionnel",
+      "detail_de_la_commande": "Design minimaliste"
     },
     {
       "id": "3",
-      "name": "Affiche",
+      "name": "affiche",
       "price": 3000,
-      "type de creation": "Affiche professionnelle",
-      "detail de la commande": "Design"
+      "type_de_creation": "Affiche publicitaire",
+      "detail_de_la_commande": "Affiche grand format"
     }
   ],
-  
   "commandes": [
     {
       "id": "c1",
+      "productId": "2",
       "productName": "logo",
       "price": 1500,
-      "clientId": "1",
+      "clientId": "3",
       "date": "2025-10-21",
-      "status": "en attente"
+      "status": "validée",
+      "downloadUrl": "/fichiers/logo-final.pdf"
+    },
+    {
+      "productId": "2",
+      "productName": "logo",
+      "price": 1500,
+      "clientId": "3",
+      "date": "2025-10-22",
+      "status": "validée",
+      "downloadUrl": "/fichiers/logo-final.pdf",
+      "id": "bMHgFQq"
     }
   ]
 }
