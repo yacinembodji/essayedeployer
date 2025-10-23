@@ -16,10 +16,24 @@
     },
     {
       "id": "3",
-      "name": "yacine",
+      "name": "yacine 2 ",
       "email": "ymbodji20@gmail.com",
       "role": "admin",
       "password": "1234@"
+    },
+    {
+      "id": "1761164991157",
+      "name": "sali",
+      "email": "saly@gmail.com",
+      "password": "sali9",
+      "role": "client"
+    },
+    {
+      "id": "1761172094910",
+      "name": "mamita",
+      "email": "mamita@gmail.com",
+      "password": "mami5",
+      "role": "client"
     }
   ],
   "products": [
@@ -27,44 +41,139 @@
       "id": "1",
       "name": "cv",
       "price": 2000,
-      "type_de_creation": "CV professionnel",
-      "detail_de_la_commande": "Design moderne"
+      "type de creation": "cv professionnelle",
+      "detail de la commande": "Design"
     },
     {
       "id": "2",
       "name": "logo",
       "price": 1500,
-      "type_de_creation": "Logo professionnel",
-      "detail_de_la_commande": "Design minimaliste"
+      "type de creation": "logo professionnelle",
+      "detail de la commande": "Design"
     },
     {
       "id": "3",
-      "name": "affiche",
+      "name": "Affiche",
       "price": 3000,
-      "type_de_creation": "Affiche publicitaire",
-      "detail_de_la_commande": "Affiche grand format"
+      "type de creation": "Affiche professionnelle",
+      "detail de la commande": "Design"
     }
   ],
-  "commandes": [
+  "commands": [
     {
-      "id": "c1",
-      "productId": "2",
-      "productName": "logo",
-      "price": 1500,
-      "clientId": "3",
-      "date": "2025-10-21",
+      "id": "1",
+      "clientId": "1",
+      "productName": "cv",
+      "price": 2000,
+      "date": "2023-10-01",
       "status": "validée",
-      "downloadUrl": "/fichiers/logo-final.pdf"
+      "details": "CV professionnel avec design moderne",
+      "clientName": "aissata",
+      "clientEmail": "aissatasow2077@gmail.com",
+      "downloadUrl": "https://example.com/download/cv1.pdf",
+      "adminMessage": "Commande validée et prête à télécharger.",
+      "paymentStatus": "pending"
     },
     {
-      "productId": "2",
+      "id": "2",
+      "clientId": "2",
       "productName": "logo",
       "price": 1500,
-      "clientId": "3",
-      "date": "2025-10-22",
+      "date": "2023-10-05",
+      "status": "en attente",
+      "details": "Logo pour entreprise tech",
+      "clientName": "madjiguene",
+      "clientEmail": "madjig415@gmail.com",
+      "downloadUrl": "",
+      "adminMessage": ""
+    },
+    {
+      "id": "3",
+      "clientId": "m1k2Ypu",
+      "productName": "cv",
+      "price": 2000,
+      "date": "2023-10-10",
       "status": "validée",
-      "downloadUrl": "/fichiers/logo-final.pdf",
-      "id": "bMHgFQq"
+      "details": "CV professionnel avec design moderne",
+      "clientName": "Test Client",
+      "clientEmail": "test@example.com",
+      "downloadUrl": "https://example.com/download/cv3.pdf",
+      "adminMessage": "Votre commande a été validée par l'admin. Vous pouvez maintenant télécharger le fichier.",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "5",
+      "clientId": "m1k2Ypu",
+      "productName": "Affiche",
+      "price": 3000,
+      "date": "2023-10-20",
+      "status": "en attente",
+      "details": "Affiche professionnelle pour événement",
+      "clientName": "Test Client",
+      "clientEmail": "test@example.com",
+      "downloadUrl": "",
+      "adminMessage": "",
+      "paymentStatus": "paid",
+      "paymentMethod": "wave",
+      "phoneNumber": ""
+    },
+    {
+      "id": "6",
+      "clientId": "1761164991157",
+      "productName": "cv",
+      "price": 2000,
+      "date": "2025-10-27",
+      "status": "validée",
+      "details": "CV professionnel personnalisé",
+      "clientName": "sali",
+      "clientEmail": "saly@gmail.com",
+      "downloadUrl": "https://example.com/download/6.pdf",
+      "adminMessage": "Votre commande de CV a été validée. ",
+      "paymentStatus": "pending",
+      "paymentMethod": "wave",
+      "phoneNumber": ""
+    },
+    {
+      "id": "7",
+      "clientId": "1761172094910",
+      "productName": "logo",
+      "price": 1500,
+      "date": "2023-10-26",
+      "status": "validée",
+      "details": "Logo professionnel pour entreprise",
+      "clientName": "mamita",
+      "clientEmail": "mamita@gmail.com",
+      "downloadUrl": "https://example.com/download/7.pdf",
+      "adminMessage": "Votre commande de logo a été validée avec succès. Le fichier est prêt au téléchargement.",
+      "paymentStatus": "pending",
+      "paymentMethod": "orange",
+      "phoneNumber": ""
+    },
+    {
+      "id": "8",
+      "clientId": "m1k2Ypu",
+      "productName": "cv",
+      "price": 2000,
+      "date": "2023-10-27",
+      "status": "validée",
+      "details": "CV professionnel personnalisé",
+      "clientName": "Test Client",
+      "clientEmail": "test@example.com",
+      "downloadUrl": "https://example.com/download/cv8.pdf",
+      "adminMessage": "Votre commande de CV a été validée. Veuillez payer pour télécharger.",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "1761219581161",
+      "clientId": "sali",
+      "productName": "cv",
+      "price": 1,
+      "date": "2025-10-22",
+      "status": "en attente",
+      "clientName": "",
+      "clientEmail": "",
+      "details": ""
     }
+    
   ]
 }
